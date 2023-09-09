@@ -1,0 +1,84 @@
+
+<!-- Toolbar -->
+
+<div class="toolbar" role="banner">
+  <body id="">
+    <!-- -------------------------------------------------------- -->
+    <!-- page 1 -->
+    <!-- -------------------------------------------------------- -->
+    <div *ngIf="page==1">
+      <h1 class="title">Test de combatilibidad</h1>
+      <p class="introduction">Este test de combatibilidad fue desarollado
+        para poder ayudar a aquellas personas que buscan ver que tan combatibles son 
+      con la persona que estan conociendo, de tal forma puedan tomar desiciones sabias 
+      respecto a si entrar o no a una relacion con esa persona </p>
+      <p class="introduction">
+        Si estas preparado/a para emepezar con el siguiente test dar click en el siguiente boton
+      </p>
+  
+      <div class="buttonContainer">
+        <button (click)="aumentarPage()" class="buttonEmpezar" >
+          Empezar 
+        </button >
+      </div>  
+    </div>
+    <!-- -------------------------------------------------------- -->
+    <!-- page 2 -->
+    <!-- -------------------------------------------------------- -->
+    <div *ngIf="page==2">
+       <p class="preguntas">{{preguntas[recorrido]}}</p>
+       <div class="buttonContainer">
+         <button class="noButton"
+                 (click)="nexQuestion()">
+            No
+          </button> 
+         <button class="siButton"
+                  (click)="nexQuestion()">
+            Si  
+          </button>
+       </div>
+    </div>
+    <!-- -------------------------------------------------------- -->
+    <!-- page 3 -->
+    <!-- -------------------------------------------------------- -->
+    <div *ngIf="page==3">
+      <h1 class="resultadoTitle">Resultados</h1>
+      <p class="parrafoResultados1"> La combatilibdad con esa personas es de:</p>
+      <div class="porcentaje">100%</div>
+      <p class="parrafoResultados2">Ambos son muy afortunados, pocas veces llegan a nuestras vidas personas con ese nivel de combatilibdad.
+      </p>
+      <p class="parrafoResultados3"> Para este caso de combatibilidad hemos preparado una seccion extra. 
+        Por favor dar click en el siguiente boton.
+      </p>
+      <div class="buttonContainer">
+        <button class="nextButton"
+        (click)="aumentarPage()">
+        Siguiente
+        </button>
+
+      </div>
+    </div>
+    <!-- -------------------------------------------------------- -->
+    <!-- page 4 -->
+    <!-- -------------------------------------------------------- -->
+    <div *ngIf="page==4">
+      <h1 class="name">
+        Nancy Michelle Ariana Ortega Saucedo
+      </h1>
+      <p class="confesion">
+        Eres la persona mas hermosa en todos los aspecto que he conocido.<br>
+        Me encanta toda tu escencias, me encanta tu sonrisa, me encanta la forma en que iluminas mi corazon y me trasmites tu alegria.<br>
+        Eres una joya de mujer.<br>
+        Contigo estoy totalmente seguro de dar el siguient paso.<br>
+        Por eso te pregunto...
+      </p>
+    </div>
+  </body>
+</div>
+
+
+
+
+
+
+

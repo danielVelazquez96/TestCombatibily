@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Dancing+Script:wght@700&family=Kalam:wght@300&family=Lobster&family=Nanum+Myeongjo&family=Pacifico&family=Roboto:wght@400;500&display=swap');
+/* page 1 */
+.title{
+    color: blue ;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+   
+}
+
+.introduction{
+    color: white;
+    font-size: 22px;
+    text-shadow: 1px 1px 2px #000;
+    font-family: 'Dancing Script', cursive;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: space-evenly   
+}
+
+.buttonEmpezar{
+    background-color: blue;
+    color: #fff;
+    border-radius: 5px; 
+    width: 80px;
+    height: 30px;
+}
+
+.buttonContainer:hover{
+    transform: translate(2px,2px);
+}
+
+/* page 2 */
+
+.preguntas{
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Kalam', cursive;
+    text-shadow: 1px 1px 1px #000;
+    color:#fff;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 75px;
+    margin-bottom: 50px;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.noButton{
+    color:#fff;
+    font-size: 20PX;
+    margin: 5px;
+    background-color: red;
+    border-radius: 5px; 
+   
+    width: 55px;
+    height: 30px;
+    
+}
+
+.noButton:hover{
+    transform: translate(2px,2px);
+}
+
+.siButton{
+    width: 60px;
+    height: 30px;
+    color:#fff;
+    font-size: 20PX;
+    margin: 5px;
+    border-radius: 5px; 
+     background: rgb(18,215,57);
+    background: radial-gradient(circle, rgba(18,215,57,1) 30%, rgba(78,219,45,1) 85%);
+}
+
+.siButton:hover{
+    transform: translate(2px,2px);
+}
+
+/* page 3 */
+
+.resultadoTitle{
+    font-family: 'Dancing Script', cursive;
+    color:blue;
+    font-size: 45px;
+    text-shadow: 1px 1px 2px #000;
+    text-align: center;
+}
+.parrafoResultados1,.parrafoResultados2,.parrafoResultados3{
+    font-family: 'Dancing Script', cursive;
+    margin: 5px 0px;
+    font-family: 'Kalam', cursive;
+    color: #fff;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px #000;
+    text-align: justify;
+    
+}
+
+.porcentaje{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Dancing Script', cursive;
+    color: blue;
+    font-weight: bold;
+}
+
+
+.nextButton{
+    background-color: blue;
+    color: #fff;
+    border-radius: 5px; 
+    width: 80px;
+    height: 30px;
+}
+
+.nextButton:hover{
+    transform: translate(2px,2px);
+}
+
+/* page 2 */
+.name{
+    text-shadow: 1px 1px 2px #000;
+    font-family: 'Kalam', cursive;
+    text-align: center;
+    color: pink;
+    
+}
+
+.confesion{
+    text-shadow: 1px 1px 2px #000;
+    font-family: 'Kalam', cursive;
+    color: white;
+    font-size: 20px;
+}
